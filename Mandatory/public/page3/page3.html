@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("h1").click(function(){
+                $(this).hide();
+            });
+        });
+    </script>
+    <title>Title</title>
+</head>
+<body>
+
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+        <a href="/index" class="w3-bar-item w3-button"><b></b> Home</a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+            <a href="/page1" class="w3-bar-item w3-button">Node.js</a>
+            <a href="/page2" class="w3-bar-item w3-button">Nodemon</a>
+            <a href="/page3" class="w3-bar-item w3-button">jQuery </a>
+            <a href="/page4" class="w3-bar-item w3-button">Terminal Comands</a>
+
+        </div>
+    </div>
+</div>
+
+<div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">jQuery</h3>
+    <p>  SKRIV OM jQuery
+    </p>
+
+    <p></p>
+    <p>Kort fortalt så er jQuery er et modificeret JavaScript framework, der formidler og arbejder på at simplificere integrationen mellem JavaScript og HTML.</p>
+    <p>jQuery der kan tilgåes via $ variablen, indeholder en masse spændende værktøjer der gør det nemmere at arbejde med browseren og HMTL.
+        jQuery indeholder kort fortalt værktøjer til at vælge/finde og ændre HTML elementer, værktøjer til animation og værktøjer til at at fortage AJAX (asynkrone) kald.
+        </p>
+    <p>jQuery skal forstås som et kæmpe stort bibliotek, med en masse funktioner på hylderne, som du frit kan benytte dig af.
+        Funktionerne er bygget på JavaScript, men du behøver ikke bekymre dig om hvordan du skal få det til at virke, for det har en jQuery-udvikler allerede gjort for dig.</p>
+    <p> Du kan læse meget mere omkring jQuery via dette <a href="https://jquery.com/" target="_blank">Link</a>
+    </p>
+    <p>Jeg har via jQuery lavet en funktion der gør det muligt, at når
+    du trykker på de 3 overskrifter herunder, så vil de forsvinde.</p>
+
+
+</div>
+
+<div>
+    <h1>Klik på mig og jeg vil forsvinde</h1>
+    <h1>Fjern også mig!</h1>
+    <h1>Og MIG!</h1>
+</div>
+
+
+</body>
+</html>

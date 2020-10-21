@@ -1,0 +1,15 @@
+
+
+GET             /cars
+GET             /cars/id
+POST            /cars  //Adding one car
+
+PATCH           /cars/id       //updating a specific car
+DELETE          /cars/id       // deleting a specific car
+
+let cars = [
+    {id: 1, name: "brom brom"},
+    {id: 2, model: "mitsubishi"}
+];
+
+terminal: nodemon app.js
